@@ -9,7 +9,7 @@
 <style>
 /*----------body-----------*/
     body {
-        background-color: rgb(233, 236, 243);
+        background-color: rgb(238, 236, 215);
         margin: 0%;
          padding: 0%;
 }
@@ -18,28 +18,37 @@
     background-color: rgb(56, 5, 56);
 }
 ul{
-    list-style: none;
-    display: flex;
-    margin:auto;
-align-items: right;
-font-weight: 900;
-padding: 10px 20px;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 .nav{
    top: 0%;
-left: 0%;
 width: 100%;
 box-sizing: border-box;
 padding: 20px 60px;
 background-color: rgb(111, 95, 121);
  box-shadow: rgba(49, 49, 58, 0.2) 0px 7px 29px 0px;
+}  
+nav li{
+    float: left;
+}
+nav li a{
+    padding: 15px;
+  display: inline-block;
+  text-decoration: none;
+  color: #eeeef1;
+  font-weight: bold;
+  font-size: 200;
 }
 nav img{
     width: 150px;  /*----------logo----------- */
 }
-.nav a :hover{
-color: black;
+nav li a:hover { 
+  background-color: #372185;
+  color: rgb(218, 40, 40);
 }
 /*------------main image-----------------*/
 .hero-image {
