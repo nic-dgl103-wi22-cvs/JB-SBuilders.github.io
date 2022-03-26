@@ -53,23 +53,24 @@ font-family: 'Times New Roman', Times, serif;
     padding: 70px 0;
 }
 .box {border-radius:15px;
-    border: 2px solid#eae8f0;
+    border: 2px solid#121113;
     padding: 100px;
     padding-bottom: 70px;
 text-align: center;
-background-color: rgb(238, 236, 215);
+background-color: rgb(12, 12, 11);
 }
 h2{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     font-size: 20pt;
     text-align: center;
+    color: sandybrown;
 }
 .para{
     text-align: center;
     text-decoration-style: wavy;
     font-style: italic;
-
+color: sandybrown;
 }
 /* images */
 .column {
