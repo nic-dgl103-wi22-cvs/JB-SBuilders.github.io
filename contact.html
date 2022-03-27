@@ -4,128 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CONSTRUCTION WEBSITE</title>
-    <style>
-       /*----------body-----------*/
-    body {
-        background-color: rgb(238, 236, 215);
-        margin: 0%;
-         padding: 0%;
-}
-/*---------navigation bar------------*/
-.mainheader{
-    background-color:  rgb(111, 95, 121);
-}
-.contact{
-  float: right;
-  font-size: 30pt;
-  background-color:white;
-  color: rgb(47, 75, 201);
-}
-ul{
-
-  overflow: auto;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-.nav{
-   top: 0%;
-width: 100%;
-box-sizing: border-box;
-padding: 20px 60px;
-background-color: rgb(111, 95, 121);
- box-shadow: rgba(49, 49, 58, 0.2) 0px 7px 29px 0px;
-}  
-nav li{
-    float: right;
-}
-nav li a{
-    padding: 15px;
-    padding-top: 5px;
-  display: block;
-  text-decoration: none;
-  color: #eeeef1;
-  font-weight: bold;
-}
-nav img{
-    width: 150px;  /*----------logo----------- */
-}
-nav li a:hover { 
-  background-color: #372185;
-  color: rgb(218, 40, 40);
-} 
-        /*------footer------------*/
-*{
-    padding: 0;
-    margin: 0%;
-    box-sizing: border-box;
-  }
- .footer.conatiner {
-     background-color: rgb(21, 21, 29);
-     padding-bottom: 4rem;
- }
-.footer {
-    width: 100%;
-    height: 40vh;
-    background-color: rgb(48, 48, 87);                 /*footer color*/
-    color: aliceblue;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin: 0 auto;
-}
-.footer-heading {
-    display: flex;
-    flex-direction: column;
-    margin-right: 4rem;
-}
-.footer-heading h2{
-    margin-bottom: 6rem;              /* fotter heading */
-}
- a {
-    color: aliceblue;
-    text-decoration: none;
-}
-
-    </style>
+    <title>JR BUILDER</title>
+<link rel="stylesheet" href="style4.css">
 </head>
 <body>
-    <section class="mainheader">
-        <nav>
-      <img src="logo.jpg" alt="logo" >    <!--logoimage is added-->    
-      <a href="contact.html"><p class="contact">Join Us</p></a> 
-       <div class="nav">
-                    <ul>
-                        <!--navigation bar-->
-                               <li><a href="contact.html"> Contact</a></li> 
-                               <li><a href="About.html"> About</a></li>
-                               <li><a href="service.html"> Service</a></li>
-                               <li><a href="homepage.html">Home</a></li>
-                            </ul>
-                 </div>
-        </nav>
-    </section>
-  
-    <div class="footer.container">
-        <div class="footer">
-            <div class="footer-heading-1">
-                <h3>ABOUT US</h3>
-                <p>Always here to make your life comfortable</p>
-            </div>
-<div class="footer-heading-2">   <!--footer-->
-<h3>ADDRESS</h3>
-<p>JR MARKET JHIKKA <br> BANGA DISTT-NAWANSHAHR <BR> PUNJAB           <!--address-->
-</p>
-</div>              
-<div class="footer-heading-3">
-<h3> CONTACT US</h3>
-<a href="tel:953084405">953084405</a>      <!--phone number-->
-<br>
-<a href="mailto.jaswantram0101@gmail.com">jaswantram0101@gmail.com</a>    <!--email-->
-</div>
+    <div class="banner">
+        <div class="navbar">
+          <a href="homepage.html"> <img src="LOGO8.png" class="logo"></a>
+            <ul>
+                <li><a href="homepage.html"> home</a></li>
+                <li><a href="service.html"> Services</a></li>
+                <li><a href="About.html"> About Us</a></li>
+                <li><a href="contact.html"> Contact</a></li>
+            </ul>
         </div>
-
-    </div>
+        <div class="container">
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="city">City</label>
+              <select id="city" name="city">
+                <option value="Nawanshahr">Nawanshahr</option>
+                <option value="Jalandhar">Jalandhar</option>
+                <option value="Ropar">Ropar</option>
+                <option value="Chandigarh">Chandigarh</option>
+                <option value="Mogha">Mogha</option>
+                <option value="Amritsar">Amritsar</option>
+                <option value="Bathinda">Bathinda</option>
+                <option value="Phagwara">Phagwara</option>
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+          
+              <input type="submit" value="Submit">
+            </form>
+          </div>
 </body>
 </html>
