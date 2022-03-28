@@ -51,8 +51,7 @@ font-family: 'Times New Roman', Times, serif;
     width: 100%;
     position: absolute;
     top: 50%;
-    transform: translater(-50%);
-    text-align: center;
+     text-align: center;
     color: #fff;
 }
 .contant h1{
